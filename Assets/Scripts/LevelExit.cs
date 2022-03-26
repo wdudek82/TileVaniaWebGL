@@ -23,8 +23,7 @@ public class LevelExit : MonoBehaviour
             nextSceneToLoad = 0;
         }
 
-        var scenePersist = FindObjectOfType<ScenePersist>();
-        scenePersist.ResetScenePersist();
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(nextSceneToLoad);
     }
 }
