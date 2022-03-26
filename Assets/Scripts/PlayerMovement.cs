@@ -136,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator OnDeath()
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(1);
         var gameSession = FindObjectOfType<GameSession>();
         gameSession.ProcessPlayerDeath();
     }

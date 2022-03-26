@@ -36,6 +36,8 @@ public class EnemyMovement : MonoBehaviour
 
     void FlipSprite()
     {
-        transform.localScale = new Vector2(Mathf.Sign(-transform.localScale.x), 1f);
+        var transformCached = transform;
+        var localScale = transformCached.localScale;
+        transformCached.localScale = new Vector2(-localScale.x, localScale.y);
     }
 }

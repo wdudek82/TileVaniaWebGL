@@ -9731,6 +9731,7 @@ Transform:
   - {fileID: 1321027333}
   - {fileID: 635898913}
   - {fileID: 140544195}
+  - {fileID: 7748751569328565370}
   m_Father: {fileID: 2104654973}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24860,3 +24861,65 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb11a3ab3023f8902b8de286a1372cb0, type: 3}
+--- !u!1001 &7748751569328565369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228822695}
+    m_Modifications:
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.08056384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4602375966646685585, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+      propertyPath: m_Name
+      value: Big Goober (Enemy)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+--- !u!4 &7748751569328565370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4273508932161703607, guid: b46a00931dce9d44c864a0c9de49101d, type: 3}
+  m_PrefabInstance: {fileID: 7748751569328565369}
+  m_PrefabAsset: {fileID: 0}
